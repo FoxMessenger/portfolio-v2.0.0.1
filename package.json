@@ -1,0 +1,29 @@
+{
+  "name": "portfolio-v2.0.0.1",
+  "version": "2.0.0",
+  "description": "personal portfolio version 2.0.0.1",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FoxMessenger/portfolio-v2.0.0.1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FoxMessenger/portfolio-v2.0.0.1/issues"
+  },
+  "homepage": "https://github.com/FoxMessenger/portfolio-v2.0.0.1#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "mongoose": "^4.11.0",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-router": "^4.1.1",
+    "react-router-dom": "^4.1.1"
+  }
+}
