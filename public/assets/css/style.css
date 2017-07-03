@@ -1,7 +1,12 @@
-div  {
-	/*color: tomato;*/
-	/*border: solid;*/
-	/*border-color: tomato;*/
+
+
+.testing  {
+	color: tomato;
+	border: solid;
+	border-color: gray;
+    height: 350px;
+    width: 350px;
+    margin: 20px;
 }
 
 
@@ -14,8 +19,8 @@ body {
 
 	-webkit-font-smoothing: antialiased;
 	background-color: #4f617a;
-	/*text-align: center;*/
-	background-image: url("../images/ana-martin-161065.jpg");
+	text-align: center;
+	/*background-image: url("../images/ana-martin-161065.jpg");*/
 	background-size: 1920px;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -53,14 +58,30 @@ body {
     color: black;
 }
 
+.hidden-text a {
+    color: #4f617a;
+    text-decoration: none;
+    transition: .5s;
+    font-weight: 500;
+
+}
+.hidden-text a:hover {
+    color: white;
+    text-decoration: none;
+    transition: .5s;
+}
 
 a {
 	color: white;
+	transition: .5s;
+	font-weight: 500;
+
 }
 
 a:hover {
 	text-decoration: none;
-	color: lightgray;
+	color: #4f617a;
+	transition: .5s;
 }
 
 .articles-style {
@@ -164,6 +185,10 @@ a:hover {
     -webkit-transform: scale(0.9, 0.9);
     transform: scale(0.9, 0.9);
     opacity: 0 !important;
+}
+
+#hero .lf {
+	font-family: times;
 }
 
 .cf {
