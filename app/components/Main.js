@@ -10,7 +10,7 @@ import { HashRouter, Route, Switch, Link } from 'react-router-dom';
 // ----------------------------
 
 // About Page
-// import About from './components/About';
+import About from './About';
 // Contact Page
 // import Contact from './components/Contact';
 

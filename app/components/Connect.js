@@ -10,7 +10,7 @@ import Header from './layout/Header';
 import Footer from './layout/Footer';
 import Links from './layout/Links';
 
-class Design extends Component {
+class Connect extends Component {
 	render() {
 
         return(
@@ -18,16 +18,16 @@ class Design extends Component {
         		<Links />
 	            
                 <div className='row'>
-                    <h3 className='text-center'>Design and Advertisement</h3>
+                    <h3 className='text-center'>Let's Chat!</h3>
                 </div>
                 <div className='row'>
-	                <div className='testing col-sm-4'></div>
-	                <div className='testing col-sm-4'></div>	
-	                <div className='testing col-sm-4'></div>	
+                    <p>Name</p>	
+                    <p>Occupation</p> 
+                    <p>Abilities</p> 
 	            </div>
 	        </div>
         )
     }
 }
 
-export default Design;
+export default Connect;
