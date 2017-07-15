@@ -6,6 +6,12 @@ import ReactDOM from 'react-dom';
 import { HashRouter, Route, Switch, Link } from 'react-router-dom';
 
 // ----------------------------
+// Static Bars
+// ----------------------------
+import Header from './layout/Header';
+import Footer from './layout/Footer';
+
+// ----------------------------
 // Main Pages
 // ----------------------------
 
@@ -21,13 +27,7 @@ import Code from './Code';
 // Design and Advertisement related projects
 import Design from './Design';
 // Travel Blog 
-import Travel from './Travel';
-
-// ----------------------------
-// Static Bars
-// ----------------------------
-import Header from './layout/Header';
-import Footer from './layout/Footer';
+import Blog from './Blog';
 
 // ----------------------------
 // Render to the screen
@@ -41,7 +41,6 @@ class Main extends Component {
     render() { 
         return (
             <div>
-                <Header />
                 <section id='hero' className='full'>
                     <figure className='ppr'> 
                         <span>            
@@ -53,7 +52,7 @@ class Main extends Component {
                             <a className='hidden-text'><Link to='/design'>designer</Link> </a>
                             <a className='hidden-text'><Link to='/code'> coder</Link>  </a>
                             <a className='hidden-text'><Link to='/art'>artist</Link>  </a>
-                            <a className='hidden-text'><Link to='/travel'>traveler</Link>  </a>
+                            <a className='hidden-text'><Link to='/blog'>blog</Link>  </a>
                         </h1>
                     </figure>
                 </section>

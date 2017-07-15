@@ -1,5 +1,4 @@
 
-
 .testing  {
 	color: tomato;
 	border: solid;
@@ -7,6 +6,12 @@
     height: 350px;
     width: 350px;
     margin: 20px;
+}
+
+
+ul {
+    list-style-type: none; 
+    padding: 0;
 }
 
 
@@ -30,6 +35,19 @@ body {
 	width: 50px; /* you can use % */
     height: auto;
 }
+
+.logo-img {
+    height: 50px;
+    width: 50px;
+    transition: .5s ease
+}
+
+.logo-img:hover {
+    -ms-transform: rotate(20deg); /* IE 9 */
+    -webkit-transform: rotate(20deg); /* Chrome, Safari, Opera */
+    transform: rotate(20deg);
+    transition: .5s ease
+}   
 
 .navbar {
    background-color: transparent;
@@ -59,34 +77,79 @@ body {
 }
 
 .hidden-text a {
-    color: #4f617a;
+    color: white;
+    opacity: .25;
     text-decoration: none;
     transition: .5s;
     font-weight: 500;
 
 }
+
+/* ///// Bounce Animation ///// */
+@keyframes bounce {
+    0%, 20%, 60%, 100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    40% {
+        -webkit-transform: translateY(-20px);
+        transform: translateY(-20px);
+    }
+
+    80% {
+        -webkit-transform: translateY(-10px);
+        transform: translateY(-10px);
+    }
+}
+/* ///// Bounce Animation ///// */
+    
 .hidden-text a:hover {
     color: white;
+    opacity: 1;
     text-decoration: none;
-    transition: .5s;
 }
 
 a {
 	color: white;
 	transition: .5s;
 	font-weight: 500;
+    text-decoration: none;
 
 }
 
 a:hover {
-	text-decoration: none;
 	color: #4f617a;
 	transition: .5s;
+    text-decoration: none;
 }
 
-.articles-style {
-    border-top: solid;
-    border-bottom: solid;
+a:link {
+    text-decoration: none;
+}
+
+/* ======================== */
+/* Design Projects          */
+/* ======================== */
+
+.img-art {
+    height: 400px;
+    width: auto;
+    overflow: hidden;
+}
+
+.full-project {
+    text-align: left;
+    margin: 10px;
+}
+
+.project-description {
+    text-decoration: none; 
+}
+
+.project-description:hover {
+    color: lightgray; 
+    text-decoration: none; 
 }
 
 /* ======================== */

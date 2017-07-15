@@ -1,0 +1,86 @@
+[
+  {   
+    "title": "Project Home Made",
+    "img": "/assets/images/design/phm.jpg",
+    "category": "Web Application",
+    "url":"#/design",
+    "description":"A web application for the poor college student."
+  },
+  {   
+    "title": "PACO Collective Logo",
+    "img": "/assets/images/design/paco-collective.jpg",
+    "category": "Logo Design",
+    "url":"https://www.pacocollective.com",
+    "description":"A Logo Design for PACO Collective Creative Agency"
+  },
+  {   
+    "title": "Papa Johns Poster 1",
+    "img": "/assets/images/design/papajohns.jpg",
+    "category": "Advertisement",
+    "url":"#/design",
+    "description":"A Contest Poster during the World Cup for Papa Johns in Moline"
+  },
+  {   
+    "title": "Papa Johns Poster 1",
+    "img": "/assets/images/design/papajohns2.jpg",
+    "category": "Advertisement",
+    "url":"#/design",
+    "description":"A Contest Poster during the World Cup for Papa Johns in Moline"
+  },
+  {   
+    "title": "Sinai Banner 1",
+    "img": "/assets/images/design/banner-sinai1.jpg",
+    "category": "Advertisement",
+    "url":"#/design",
+    "description":"A Banner design for Sinai Hospital in Chicago"
+  },
+  {   
+    "title": "Sinai Banner 2",
+    "img": "/assets/images/design/banner-sinai2.jpg",
+    "category": "Advertisement",
+    "url":"#/design",
+    "description":"A Banner design for Sinai Hospital in Chicago"
+  },
+  {   
+    "title": "ComEd El Poder Poster",
+    "img": "/assets/images/design/comed-1.jpg",
+    "category": "Advertisement",
+    "url":"#/design",
+    "description":"ComEd poster for Power of Priority "
+  },
+  {   
+    "title": "Paco Email Blast",
+    "img": "/assets/images/design/holiday-party.jpg",
+    "category": "Advertisement",
+    "url":"#/design",
+    "description":"PACO Holiday Party Email Blast"
+  },
+  {   
+    "title": "Kaja",
+    "img": "/assets/images/design/kaja.jpg",
+    "category": "Advertisement",
+    "url":"#/design",
+    "description":"Kaja Art Fair flyer"
+  },
+  {   
+    "title": "Popcult Posters",
+    "img": "/assets/images/design/popcult-4.jpg",
+    "category": "Advertisement",
+    "url":"#/design",
+    "description":"A series of Popcult posters for C2E2"
+  },
+    {   
+    "title": "Logo Designs",
+    "img": "/assets/images/design/logo-kyu.jpg",
+    "category": "Advertisement",
+    "url":"#/design",
+    "description":"A series of logo designs"
+  },
+  {   
+    "title": "Switch in Style",
+    "img": "/assets/images/design/switch-in-style.jpg",
+    "category": "Advertisement",
+    "url":"#/design",
+    "description":"A series of Chicago Public Transit ads for a Lecture series known as Switch in Style"
+  }
+]

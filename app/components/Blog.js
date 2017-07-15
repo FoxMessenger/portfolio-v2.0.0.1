@@ -6,19 +6,15 @@ import React, {Component} from 'react';
 // ----------------------------
 // Static Bars
 // ----------------------------
-import Header from './layout/Header';
-import Footer from './layout/Footer';
-import Links from './layout/Links';
 
-class Travel extends Component {
+class Blog extends Component {
 	render() {
 
         return(
         	<div>
-        		<Links />
 	            
                 <div className='row'>
-                    <h3 className='text-center'>Traveling Blog</h3>
+                    <h3 className='text-center'>Blog</h3>
                 </div>
                 <div className='row'>
 	                <div className='testing col-sm-4'></div>
@@ -30,4 +26,4 @@ class Travel extends Component {
     }
 }
 
-export default Travel;
+export default Blog;
