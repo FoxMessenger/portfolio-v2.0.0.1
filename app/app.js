@@ -33,6 +33,7 @@ import Blog from './components/Blog';
 // Data
 // ----------------------------
 import designData from '../designData.json';
+import codeData from '../codeData.json';
 
 // ----------------------------
 // Render to the screen
@@ -45,7 +46,8 @@ const App = () => {
                 <Header />
                 <Route exact path="/about" component={About} />
                 <Route exact path="/art" component={Art} />
-                <Route exact path="/code" component={Code} />
+                <Route exact path="/code" render={ (props) => (
+                    <Code {...props} data={codeData} />)} />
                 <Route exact path="/connect" component={Connect} />
                 <Route exact path="/design" render={ (props) => (
                     <Design {...props} data={designData} />)} />

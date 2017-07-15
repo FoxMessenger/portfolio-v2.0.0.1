@@ -1,0 +1,23 @@
+[
+  {   
+    "title": "The Almost Perfect Pick",
+    "img": "/assets/images/design/theapp.gif",
+    "category": "Web Application",
+    "url":"#/code",
+    "description":"A web application for figuring out which Netflix show to watch."
+  },
+  {   
+    "title": "Who Are You",
+    "img": "/assets/images/design/whoareyou.gif",
+    "category": "Web Application",
+    "url":"#/code",
+    "description":"A web application to make icebreakers or slow time easier"
+  },
+  {   
+    "title": "Content Club",
+    "img": "/assets/images/design/switch-in-style.jpg",
+    "category": "Web Application",
+    "url":"#/code",
+    "description":"A Facebook and Twitch like Application creted in React4"
+  }
+]

@@ -153,6 +153,17 @@ a:link {
 }
 
 /* ======================== */
+/* Design Projects          */
+/* ======================== */
+
+.img-code {
+    height: auto;
+    width: 1000px;
+    /*overflow: hidden;*/
+}
+
+
+/* ======================== */
 /* Main Fading Text Effect	*/
 /* ======================== */
 
