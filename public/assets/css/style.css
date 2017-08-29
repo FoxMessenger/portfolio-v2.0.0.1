@@ -317,3 +317,30 @@ a:link {
 		transform: none;
 	}
 }
+
+
+/* ==================== */
+/*      Contact Page    */
+/* ==================== */
+
+.form-group {
+    font-family: sans-serif;
+    color: black;
+    border-radius: 20px;
+    width: 500px;
+    text-align: left;
+    margin-left: 0 auto;
+}
+
+.form-group small {
+    font-family: sans-serif;
+    color: lightgray;
+}
+
+.lets-chat-button {
+    float: left;
+}
+
+.lets-chat-button:hover {
+    background-color: tomato;
+}
