@@ -179,38 +179,46 @@ a:link {
     -webkit-backface-visibility: hidden
 }
 #hero .ppr {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -moz-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
     font-size: 1rem;
     z-index: 1;
     color: #fff;
-    width: 100%;
+    width: 35%;
     text-align: center
 }
 #hero .ppr span {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
     font-size: 15vw;
     font-family: "Demi", Helvetica, Arial, sans-serif;
     z-index: 2;
     margin: 0;
     line-height: 1;
     cursor: default;
-    /*-webkit-touch-callout: none;*/
-    -webkit-user-select: none;
-    /*-khtml-user-select: none;*/
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
     display: block
+    width: 25%;
 }
 #hero .ppr h1 {
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%) scale(0.98, 0.98);
+    -o-transform: translate(-50%, -50%) scale(0.98, 0.98);
+    -ms-transform: translate(-50%, -50%) scale(0.98, 0.98);
+    -webkit-transform: translate(-50%, -50%) scale(0.98, 0.98);
     -webkit-transition: all 0.4s;
     -moz-transition: all 0.4s;
     position: absolute;
@@ -222,15 +230,6 @@ a:link {
     opacity:0; 
     top: 50%;
     left: 50%;
-    -moz-transform: translate(-50%, -50%);
-    -o-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%) scale(0.98, 0.98);
-    -o-transform: translate(-50%, -50%) scale(0.98, 0.98);
-    -ms-transform: translate(-50%, -50%) scale(0.98, 0.98);
-    -webkit-transform: translate(-50%, -50%) scale(0.98, 0.98);
     transform: translate(-50%, -50%) scale(0.98, 0.98);
     font-size: 2.8em;
 }
@@ -263,6 +262,7 @@ a:link {
 
 #hero .lf {
 	font-family: times;
+
 }
 
 .cf {
