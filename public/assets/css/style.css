@@ -344,3 +344,13 @@ a:link {
 .lets-chat-button:hover {
     background-color: tomato;
 }
+
+
+
+/* ==================== */
+/*       Art Page       */
+/* ==================== */
+
+.date-inline-list {
+    display: inline-block;
+}

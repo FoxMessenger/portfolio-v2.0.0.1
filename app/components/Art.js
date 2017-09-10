@@ -8,12 +8,28 @@ class Art extends Component {
         return(
         	<div>
                 <div className='row'>
-                    <h3 className='text-center'>My Art</h3>
+                    <h3 className='text-center'>Art</h3>
                 </div>
-                <div className='row'>
-	                <div className='testing col-sm-4'></div>
-	                <div className='testing col-sm-4'></div>	
-	                <div className='testing col-sm-4'></div>	
+                <br />
+                <div className='row'>                    
+                    <div className="col-md-2">
+                      2012
+                    </div>
+                    <div className="col-md-2">
+                      2013
+                    </div>
+                    <div className="col-md-2">
+                      2014
+                    </div>
+                    <div className="col-md-2">
+                      2015
+                    </div>
+                    <div className="col-md-2">
+                      2016
+                    </div>
+                    <div className="col-md-2">
+                      2017
+                    </div>
 	            </div>
 	        </div>
         )
